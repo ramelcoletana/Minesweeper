@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+}
+#myTbl{
+	margin: 0 auto;
+	margin-top: 20px;
+	/*width: 500px;*/
+	height: 500px;
+}
+h3{
+	font-family: helvetica, sans-serif;
+	font-size: 24px;
+	text-transform: capitalize;
+	text-shadow: 1px 1px 1px #666;
+}
+body{
+	background-color: #ccc;
+}
+#myTbl tr td{
+    width: 45px;
+    height: 45px;
+	background-image: url("../images/Square_gradient.png");
+}
+#myTbl tr td label{
+	margin-top: -10px;
+}
+#myTbl tr td:HOVER{
+	background-image: url("../images/hi.png");
+}
+label{
+	position: absolute;
+	font-family: helvetica, sans-serif;
+	font-size: 28px;
+	text-shadow: 1px 1px 1px #666;
+	color: blue;
+}
+.label2{
+	color: green;
+}
+.label3{
+	color: red;
+}
+.label4{
+	color: darkblue;
+}
+.label5{
+	color: darkred;
+}
+#myTbl{
+	box-shadow: 0px 0px 20px #000;
+	   -moz-box-shadow: 0px 0px 20px #000;
+	-webkit-box-shadow: 0px 0px 20px #000;
+}
+html{
+	background: url('../images/body_back1.jpg') repeat;
+}
+body{
+	background: url('../images/body_back1.jpg') repeat;
+}
+
+/* BOARD */
+
+.board {
+    margin-left: 33%;
+    margin-top: 10px;
+}
+
+#mines, #time {
+    width: 30px;
+}
