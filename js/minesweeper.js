@@ -71,7 +71,7 @@ function clickM(id){
             for(var s = 1; s<=globalX; s++){
                 for(var w = 1; w<=globalY; w++){
                     if(document.getElementById("i"+s+"_"+w).value=='2'){
-                        $("#"+s+"_"+w).css('background-image','url(images/boom1.PNG)');
+                        $("#"+s+"_"+w).css('background-image','url(images/boom1.png)');
                         //playSound("sound/button-1.wav")
                     }
                 }
