@@ -1,2 +1,2 @@
-Minesweeper
-===========
+Welcome to Minesweeper
+======================
